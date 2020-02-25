@@ -1,7 +1,7 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
     if Rails.env.production?
-      origins 'https://bbs-app.firebaseapp.com'
+      origins 'https://bbs-app-2a460.firebaseapp.com'
     else
       origins 'http://localhost:3000'
     end
